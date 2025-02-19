@@ -17,6 +17,7 @@ System.out.println("Enter the number to check it is Strong number or not : ");
 int n=sc.nextInt();
 int m=n;
 int sum=0;
+sc.close();
 
 while(n>0){
 int rem=n%10;

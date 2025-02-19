@@ -6,6 +6,7 @@ class P1 {
         System.out.println("enter start and end range for printing prime");
         int start = sc.nextInt();
         int end = sc.nextInt();
+        sc.close();
 
         for (int i = start; i <= end; i++) {
             boolean flag = true;

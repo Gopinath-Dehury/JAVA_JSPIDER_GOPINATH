@@ -6,6 +6,8 @@ class PrimeRange {
         System.out.println("Enter Range : ");
         int start = sc.nextInt();
         int end = sc.nextInt();
+        sc.close();
+
         // int count = 1;
         for (int i = end; i >= start; i--) {// and set the 1st loop start from the last (big) number for getting biggest
                                             // prime number of that range

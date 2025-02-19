@@ -3,7 +3,7 @@ class Print4
 	public static void main(String[] args) 
 	{
 		int n=5;
-		int c=01;
+		//int c=01;
 		for(int i=1;i<=n;i++){//this loop control number of lines
 		
 		

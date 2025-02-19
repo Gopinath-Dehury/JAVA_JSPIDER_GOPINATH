@@ -13,6 +13,7 @@ public class Armstrong {
             temp /= 10;
             count++;
         }
+        sc.close();
         temp = num;
         while (temp > 0) {
             int rem = temp % 10;

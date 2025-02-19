@@ -6,7 +6,8 @@ class Sumbecome1digit
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the number");
 		int n=sc.nextInt();
-		
+		sc.close();
+
 		int sum=0;
 		for(int i=1;i<=n;){
 			

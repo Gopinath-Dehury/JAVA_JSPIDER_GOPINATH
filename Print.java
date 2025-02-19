@@ -6,6 +6,7 @@ class Print {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number n");
 		int n = sc.nextInt();
+        sc.close();
 
 		int spaces = 0;
 		for (int i = n; i >= 1; i--) {

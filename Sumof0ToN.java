@@ -7,7 +7,8 @@ class Sumof0ToN
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter the natural number :");
 		int n=sc.nextInt();
-		
+		sc.close();
+
 		int sum=0;
 		String s="";
 		for(int i=1;i<=n;i++){

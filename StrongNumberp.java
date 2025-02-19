@@ -6,6 +6,7 @@ public class StrongNumberp {
         System.out.println("Enter a range  : ");
         int start = sc.nextInt();
         int end = sc.nextInt();
+        sc.close();
 
         for (int i = start; i <= end; i++) {
             int count = 0;

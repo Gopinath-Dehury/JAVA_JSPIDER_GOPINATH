@@ -7,6 +7,8 @@ class SumOfDigits
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter a number :");
 		int n=sc.nextInt();
+		sc.close();
+
 		String numbers="";
 		int sum=0;
 		while(n>0){

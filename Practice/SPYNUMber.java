@@ -8,6 +8,7 @@ class SPYNUMber {
         int start = sc.nextInt();
         System.out.println("ENter the end range : ");
         int end = sc.nextInt();
+        sc.close();
 
         for (int i = start; i <= end; i++) {
             if (isSpyNumber(i)) {

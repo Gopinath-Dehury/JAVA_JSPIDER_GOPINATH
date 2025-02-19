@@ -8,6 +8,7 @@ public class Lcm1 {
         System.out.println("Enter the number b");
         int b = sc.nextInt();
         int i = 2;
+        sc.close();
 
         while (true) {
 

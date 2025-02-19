@@ -25,6 +25,7 @@ class ArmStrongnumber {
         int start = sc.nextInt();
         System.out.println("enter end range :");
         int end = sc.nextInt();
+        sc.close();
 
         for (int i = start; i <= end; i++) {
             if (isArmStrong(i))
